@@ -59,3 +59,12 @@
 #language .active{
     background-color: rgba(0, 0, 0, 0.3);
 }
+.claim{
+    padding-top: 10px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.claim li{
+    margin-top: 6px;
+    letter-spacing: 2px;
+}
