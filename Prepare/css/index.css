@@ -1,0 +1,61 @@
+#menu {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 25px;
+    top: 30%;
+    list-style-type: none;
+    z-index: 70;
+}
+
+#menu li {
+    font-size: 14px;
+}
+
+#menu a {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family:"Microsoft YaHei", sans-serif;
+    margin-top: 18px;
+    float: left;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+#menu .active a {
+    color: #fff;
+    background-color: #333;
+}
+
+.section {
+    text-align: center;
+    font: 50px "Microsoft Yahei";
+    color: #fff;
+}
+
+#language{
+    list-style: none;
+    font-size:19px;
+    width: 18%;
+    height: 46px;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+#language li{
+    float: left;
+    margin:0 1px;
+    width: 49%;
+    padding: 0px 10px;
+}
+#language li a{
+    color: #ffffff;
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    text-decoration: none;
+}
+#language .active{
+    background-color: rgba(0, 0, 0, 0.3);
+}
